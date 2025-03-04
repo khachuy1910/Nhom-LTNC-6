@@ -103,7 +103,9 @@ Invalid Sudoku
 ## 5. Link video báo cáo
 [[Video báo cáo nhóm X](#)](https://drive.google.com/file/d/17qChof9zw3LfMHip3vGmb4TTOLBQ6Prz/view?usp=drive_link)
 
----
+PowerPoint : 
+---[Báo cáo bài tập lớn nhóm 6_fix.pptx](https://github.com/user-attachments/files/19074398/Bao.cao.bai.t.p.l.n.nhom.6_fix.pptx)
+
 
 ## 6. Link source code
 [Thư mục src](./src)
