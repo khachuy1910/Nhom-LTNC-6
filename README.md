@@ -18,13 +18,13 @@
 
 ## 3. Hướng giải quyết bài toán
 ### a. Phân tích bài toán
-Bài toán yêu cầu ta giải một bảng Sudoku 9x9 có một số ô đã được điền số vào.
-Yêu cầu đầu vào:
+Bài toán yêu cầu ta giải một bảng Sudoku 9x9 có một số ô đã được điền số vào.  
+Yêu cầu đầu vào:  
 Đầu vào của bài toán: Một dãy các chữ số nhập vào bảng sudoku theo dạng một ô vuông 9x9. Mỗi dòng gồm 9 chữ số được đánh số từ 0 đến 9 (Nếu có ô trống thì để số 0) cách nhau bằng dấu cách.
 Ràng buộc của đầu vào: Bảng Sudoku không có phương án khả thi hoặc chỉ có một phương án duy nhất thỏa mãn.
 
 ### b. Thuật toán/Hướng tiếp cận
-Sử dụng đệ quy và backtracking
+Sử dụng đệ quy và backtracking  
 Ý tưởng: Thay lần lần từng ô trống bằng các số từ 1 đến 9. Nếu thỏa mãn điều kiện của hàng dọc, ngang và ô 3x3 thì chuyển tới ô tiếp theo, lần lượt duyệt qua toàn bộ các ô và trả về kết quả bảng sudoku đã điền. Nếu không thỏa mãn, lùi về ô đã điền lúc trước và thay số khác. Nếu lùi tới ô đầu tiên điền và thay toàn bộ các số từ 1 đến 9 nhưng không thỏa mãn, trả về thông báo sudoku không thỏa mãn.
 
 ---
