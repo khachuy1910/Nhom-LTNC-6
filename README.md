@@ -43,56 +43,56 @@ Sử dụng đệ quy và backtracking
 8 4 9 3 6 2 7 1 5  
 **Output:**  
 Solved Sudoku:
-2 5 6 4 8 9 1 7 3
-3 7 4 6 1 5 9 8 2
-9 8 1 7 2 3 4 5 6
-5 9 3 2 7 4 8 6 1
-7 1 2 8 0 6 5 4 9
-4 6 8 5 9 1 3 2 7
-6 3 5 1 4 7 2 9 8
-1 2 7 9 5 8 6 3 4
-8 4 9 3 6 2 7 1 5
+2 5 6 4 8 9 1 7 3  
+3 7 4 6 1 5 9 8 2  
+9 8 1 7 2 3 4 5 6  
+5 9 3 2 7 4 8 6 1  
+7 1 2 8 0 6 5 4 9  
+4 6 8 5 9 1 3 2 7  
+6 3 5 1 4 7 2 9 8  
+1 2 7 9 5 8 6 3 4  
+8 4 9 3 6 2 7 1 5  
 **Giải thích:**  
 Đầu vào của mình là một bảng Sudoku đã có đầy đủ các số trong các ô ==> Nếu đúng thì đầu ra của mình sẽ in ra là Solved Sudoku và in lại cái bảng Sudoku đó.
 
 ### Ví dụ 2
 **Input:**  
-0 0 2 0 3 0 0 0 8
-0 0 0 0 0 8 0 0 0
-0 3 1 0 2 0 0 0 0
-0 6 0 0 5 0 2 7 0
-0 1 0 0 0 0 0 5 0
-2 0 4 0 6 0 0 3 1
-0 0 0 0 8 0 6 0 5
-0 0 0 0 0 0 0 1 3
-0 0 5 3 1 0 4 0 0  
+0 0 2 0 3 0 0 0 8  
+0 0 0 0 0 8 0 0 0  
+0 3 1 0 2 0 0 0 0  
+0 6 0 0 5 0 2 7 0  
+0 1 0 0 0 0 0 5 0  
+2 0 4 0 6 0 0 3 1  
+0 0 0 0 8 0 6 0 5  
+0 0 0 0 0 0 0 1 3  
+0 0 5 3 1 0 4 0 0     
 **Output:**  
-Solved Sudoku:
-6 7 2 4 3 5 1 9 8 
-5 4 9 1 7 8 3 6 2 
-8 3 1 6 2 9 5 4 7 
-3 6 8 9 5 1 2 7 4 
-9 1 7 2 4 3 8 5 6 
-2 5 4 8 6 7 9 3 1 
-1 9 3 7 8 4 6 2 5 
-4 8 6 5 9 2 7 1 3
-7 2 5 3 1 6 4 8 9  
+Solved Sudoku:  
+6 7 2 4 3 5 1 9 8   
+5 4 9 1 7 8 3 6 2   
+8 3 1 6 2 9 5 4 7   
+3 6 8 9 5 1 2 7 4   
+9 1 7 2 4 3 8 5 6   
+2 5 4 8 6 7 9 3 1   
+1 9 3 7 8 4 6 2 5   
+4 8 6 5 9 2 7 1 3  
+7 2 5 3 1 6 4 8 9    
 **Giải thích:**  
 Đầu vào của mình là một bảng Sudoku có một số ô vẫn còn trống (ô có giá trị 0) ==> Nên sau khi sử dụng thuật toán backtracking thì sẽ thực hiện giải bảng Sudoku trên và in ra kết quả là một bảng Sudokuu đã hoàn chỉnh.
 
 ### Ví dụ 3
 **Input:**  
-0 0 9 0 7 0 0 0 5
-0 0 2 1 0 0 9 0 0
-1 0 0 0 2 8 0 0 0
-0 7 0 0 0 5 0 0 1
-0 0 8 5 1 0 0 0 0
-0 5 0 0 0 0 3 0 0
-0 0 0 0 0 3 0 0 6
-8 0 0 0 0 0 0 0 0
-2 1 0 0 0 0 0 8 7  
+0 0 9 0 7 0 0 0 5  
+0 0 2 1 0 0 9 0 0  
+1 0 0 0 2 8 0 0 0  
+0 7 0 0 0 5 0 0 1  
+0 0 8 5 1 0 0 0 0  
+0 5 0 0 0 0 3 0 0  
+0 0 0 0 0 3 0 0 6  
+8 0 0 0 0 0 0 0 0  
+2 1 0 0 0 0 0 8 7    
 **Output:**  
-Solved Sudoku:
+Solved Sudoku:  
 Invalid Sudoku  
 **Giải thích:**  
 Đầu vào của mình là một bảng Sudoku có một số ô vẫn còn trống (ô có giá trị 0) ==> Sau khi sử dụng thuật toán backtracking và phát hiện ra lỗi là không có đáp án hợp lệ thì sẽ in ra kết quả là "Invalid" ==> Đầu vào mình nhập là một bảng Sudoku không giải được.
