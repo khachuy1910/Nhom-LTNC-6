@@ -42,7 +42,7 @@ Sử dụng đệ quy và backtracking
 1 2 7 9 5 8 6 3 4  
 8 4 9 3 6 2 7 1 5  
 **Output:**  
-Solved Sudoku:
+Solved Sudoku:  
 2 5 6 4 8 9 1 7 3  
 3 7 4 6 1 5 9 8 2  
 9 8 1 7 2 3 4 5 6  
