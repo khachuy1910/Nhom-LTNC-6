@@ -101,7 +101,7 @@ Invalid Sudoku
 ---
 
 ## 5. Link video báo cáo
-[Video báo cáo nhóm X](#)
+[[Video báo cáo nhóm X](#)](https://drive.google.com/file/d/17qChof9zw3LfMHip3vGmb4TTOLBQ6Prz/view?usp=drive_link)
 
 ---
 
