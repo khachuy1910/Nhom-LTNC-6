@@ -22,7 +22,6 @@
 - Yêu cầu đầu vào:   
 Một dãy các chữ số nhập vào bảng sudoku theo dạng một ô vuông 9x9.  
 Mỗi dòng gồm 9 chữ số được đánh số từ 0 đến 9 (Nếu có ô trống thì để số 0) cách nhau bằng dấu cách.  
-Ràng buộc của đầu vào: Bảng Sudoku không có phương án khả thi hoặc chỉ có một phương án duy nhất thỏa mãn.
 
 ### b. Thuật toán/Hướng tiếp cận
 - Sử dụng đệ quy và backtracking (Quay lui)  
