@@ -42,8 +42,7 @@ bool solveSudoku (int a[][9], int x, int y){
             printSudoku(a);
             return true;
         } else {
-            solveSudoku(a, x+1, 0);
-            return solveSudoku(a, x, y+1);
+            return solveSudoku(a, x+1, 0);
         }
     } else if (a[x][y]==0){
         for (int i=1; i<=9;i++){
